@@ -1,0 +1,78 @@
+/* Estilos responsivos para el campo de fútbol */
+.player-position {
+  width: auto;
+  height: auto;
+}
+
+.player-avatar {
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+.player-avatar-text {
+  font-size: 0.75rem;
+}
+
+.player-name-tag {
+  bottom: -1.25rem;
+  font-size: 0.625rem;
+}
+
+.player-libre-text {
+  font-size: 0.625rem;
+}
+
+/* Media queries para diferentes tamaños de pantalla */
+@media (max-width: 640px) {
+  .player-avatar {
+    height: 1.75rem;
+    width: 1.75rem;
+  }
+
+  .player-avatar-text {
+    font-size: 0.625rem;
+  }
+
+  .player-name-tag {
+    bottom: -1rem;
+    font-size: 0.5rem;
+    padding: 0.125rem 0.375rem;
+  }
+
+  .player-libre-text {
+    font-size: 0.5rem;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+  .player-avatar {
+    height: 2rem;
+    width: 2rem;
+  }
+
+  .player-avatar-text {
+    font-size: 0.675rem;
+  }
+
+  .player-name-tag {
+    bottom: -1.125rem;
+    font-size: 0.575rem;
+  }
+
+  .player-libre-text {
+    font-size: 0.575rem;
+  }
+}
+
+/* Ajustes específicos para campos pequeños */
+@media (max-width: 400px) {
+  .player-avatar {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+
+  .player-name-tag {
+    bottom: -0.875rem;
+    max-width: 60px;
+  }
+}
